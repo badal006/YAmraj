@@ -776,7 +776,7 @@ if __name__ == "__main__":
 def send_start_command():
     while True:
         try:
-            bot.send_message(admin_id[0], '♻️CODESPECS RUNNING.....♻️')
+            bot.send_message(admin_id[0], '')
             time.sleep(30)
         except Exception as e:
             print(f"Error sending server running... command: {e}")
